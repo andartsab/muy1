@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+
+		.boxs {
+			height: 100px;
+			width: 100px;
+			background-color: #a7bbfc;
+			border: solid;
+			position: absolute;
+		}
+		.firsBox {
+			background-color: white;
+			background-image: url(muy.jpg);
+			background-size: 150% 150%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="content">
+		<h4 style="margin-left: 20px">Score: <span class="score">0</span></h4>
+		<img src="dice.png" class="bt" style="width: 100px; margin-left: 20px">		
+		<div class="boxs firsBox muy" style="margin-left: 20px; background-color: #a7bbfc">
+			<h4>finish</h4>
+		</div>
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 130px">1</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 240px">2</div>
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 350px; background-color: #a7bbfc">3</div>
+				
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 460px">4</div> 
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 570px">5</div>
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 680px;  background-color: #a7bbfc">6</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 790px">7</div>
+
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 900px">8</div>
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 1010px;background-color: #a7bbfc" >9</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 1120px">10</div>
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 1230px">11
+			<p>+10 очков</p>
+		</div>
+
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 1340px;background-color: #a7bbfc">12 
+			<p>иди назад на -5 клеток</p>
+		</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 1340px; margin-top: 110px">13</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 1340px; margin-top: 220px">14</div>	
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 1340px; margin-top: 330px">15</div>		
+
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 1340px; margin-top: 440px">16</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 1230px; margin-top: 440px">17</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 1120px; margin-top: 440px">18</div>
+
+		<!--<div class="boxs" style="margin-left: 1010px; margin-top: 440px">19</div>-->
+
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 1010px;  margin-top: 440px; background-color: #a7bbfc">19 
+			<p>иди назад на -5 клеток</p>
+		</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 900px; margin-top: 440px">20</div>
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 790px; margin-top: 440px">21</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 680px; margin-top: 440px">22</div>
+		<!--<div class="boxs" style="margin-left: 570px; margin-top: 440px">23</div>-->
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 570px; margin-top: 440px; background-color: #a7bbfc" >23</div>
+
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 460px; margin-top: 440px">24</div>
+		<div class="boxs text-success" style="background-size: 150% 150%; margin-left: 350px; margin-top: 440px">25</div>
+		<!--<div class="boxs" style="margin-left: 240px; margin-top: 440px">26</div>-->
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 240px; margin-top: 440px; background-color: #a7bbfc" >26</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 130px; margin-top: 440px">27</div>
+
+		<!--<div class="boxs" style="margin-left: 20px; margin-top: 440px">28</div>-->
+		<div class="boxs text-danger" style="background-size: 150% 150%; margin-left: 20px; margin-top: 440px; background-color: #a7bbfc" >28</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 20px; margin-top: 330px">29</div>
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 20px; margin-top: 220px">30</div>	
+		<div class="boxs" style="background-size: 150% 150%; margin-left: 20px; margin-top: 110px">31</div>		
+
+		<!--последние дивы-->
+		<div class="boxs" style="margin-left: 130px; margin-top: 110px; background-color: green; opacity: 0"></div>
+		<div class="boxs" style="margin-left: 240px; margin-top: 110px; background-color: green; opacity: 0"></div>
+		<div class="boxs" style="margin-left: 350px; margin-top: 110px; background-color: green; opacity: 0"></div>
+		<div class="boxs" style="margin-left: 460px; margin-top: 110px; background-color: green; opacity: 0"></div>
+		<div class="boxs" style="margin-left: 570px; margin-top: 110px; background-color: green; opacity: 0"></div>
+		<div class="boxs" style="margin-left: 680px; margin-top: 110px; background-color: green; opacity: 0"></div>
+
+	</div>
+	<div class="text-center w border" style="position: absolute; top: 200px; left: 500px; height: 500px; width: 900px; background-color: #a7bbfc; display: none; border-color: black">
+		Ты победил
+	</div>	
+
+	<div class="text-center l border" style="position: absolute; top: 200px; left: 500px; height: 500px; width: 900px; background-color: #a7bbfc; display: none; border-color: black">
+		Ты проиграл
+	</div>
+		
+</body>
+</html>
+
+
+
+
+
+
+<script type="text/javascript">
+	let muy = document.querySelector(".muy")
+	let btn =  document.querySelector(".bt")
+	let score = document.querySelector(".score")
+	let boxs = document.querySelectorAll(".boxs")
+	let shaq = 0
+	let pts = 0
+	btn.onclick = function(){
+		let random = Math.round(Math.random()*5+1)
+		boxs[shaq].style.backgroundImage = "none"
+		shaq = shaq + random
+		boxs[shaq].style.backgroundImage = "url(muy.jpg)"
+		if (shaq == 1) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq > 0) {
+			document.querySelector(".l").style.display = "none"
+		}
+		if (shaq == 4) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq == 5) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq == 11) {
+			pts = pts + 10
+			score.innerHTML = pts
+		}
+		if (shaq == 15) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq == 16) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq == 21) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq == 25) {
+			pts = pts + 5
+			score.innerHTML = pts
+		}
+		if (shaq > 32 && pts < 15) {
+			shaq = 0
+			boxs[shaq].style.backgroundImage = "url(muy.jpg)"
+			document.querySelector(".l").style.display = "block"
+			pts = 0
+			score.innerHTML = pts
+		} else if (shaq > 32 && pts > 15) {
+			shaq = 0
+			boxs[shaq].style.backgroundImage = "url(muy.jpg)"
+			document.querySelector(".w").style.display = "block"
+		}
+		if (shaq == 3) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 6) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 9) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 23) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 26) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 28) {
+			pts = pts - 5
+			score.innerHTML = pts
+		}
+		if (shaq == 12) {
+			shaq = shaq-5
+			boxs[12].style.backgroundImage = ""
+			boxs[7].style.backgroundImage = "url(muy.jpg)"
+		}
+		if (shaq == 19) {
+			shaq = shaq-5
+			boxs[19].style.backgroundImage = ""
+			boxs[14].style.backgroundImage = "url(muy.jpg)"
+		}
+	}
+</script>
